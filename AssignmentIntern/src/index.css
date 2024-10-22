@@ -1,0 +1,55 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.heading {
+  font-size: 6vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.app button {
+  margin: 1rem;
+  width: 6rem;
+  height: 3rem;
+}
+
+.data {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7vh;
+  gap: 12vh;
+  padding: 12vh;
+}
+
+.userData {
+  display: flex;
+  flex-direction: column;
+}
+
+.groupData {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .noData {
+  margin-top: 2rem;
+} */
